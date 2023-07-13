@@ -7,20 +7,20 @@
 :root {
   --color-main-blue: 84, 112, 254;
 }
-body {
-  direction: rtl;
-  width: 100vw;
-  height: 100vh;
-}
 nav {
   width: 100%;
+
+  background-color: white;
+  box-shadow: 0 1rem 5rem rgba(var(--color-main-blue), 0.6);
+  transition: all 0.3s ease;
+}
+.navbar {
+  min-width: 400px;
+  max-width: 700px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
-  box-shadow: 0 1rem 5rem rgba(var(--color-main-blue), 0.6);
-  transition: all 0.3s ease;
 }
 nav:hover {
   box-shadow: 0 0 2rem rgba(var(--color-main-blue), 0.5);
