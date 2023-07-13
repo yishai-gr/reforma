@@ -19,7 +19,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  box-shadow: 0 1rem 5rem rgba(var(--color-main-blue), 0.5);
+  box-shadow: 0 1rem 5rem rgba(var(--color-main-blue), 0.6);
   transition: all 0.3s ease;
 }
 nav:hover {
