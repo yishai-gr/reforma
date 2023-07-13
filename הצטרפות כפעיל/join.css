@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: none; */
+  outline: none;
+  font-family: "assistant";
+  font-size: 16px;
+}
+
+body {
+  direction: rtl;
+}
+
+form {
+  min-width: 300px;
+  background-color: green;
+  max-width: 600px;
+}
