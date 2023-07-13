@@ -5,8 +5,7 @@
   font-family: "assistant";
 }
 :root {
-  --color-main-blue: rgb(84, 112, 254);
-  --color-main-blue-alpha: rgba(84, 112, 254, 0.5);
+  --color-main-blue: 84, 112, 254;
 }
 body {
   direction: rtl;
@@ -20,17 +19,17 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  box-shadow: 0 1rem 5rem var(--color-main-blue-alpha);
+  box-shadow: 0 1rem 5rem rgba(var(--color-main-blue), 0.5);
   transition: all 0.3s ease;
 }
 nav:hover {
-  box-shadow: 0 0 2rem var(--color-main-blue-alpha);
+  box-shadow: 0 0 2rem rgba(var(--color-main-blue), 0.5);
 }
 nav a {
   flex-grow: 1;
   transition: all 0.3s ease;
   text-decoration: none;
-  color: var(--color-main-blue);
+  color: rgb(var(--color-main-blue));
   font-size: 16px;
 }
 nav a:hover,
