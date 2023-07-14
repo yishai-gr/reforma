@@ -12,8 +12,11 @@ nav {
   display: flex;
   justify-content: center;
   background-color: white;
-  box-shadow: 0 1rem 5rem rgba(var(--color-main-blue), 0.6);
   transition: all 0.3s ease;
+  box-shadow: 0 0 2rem rgba(var(--color-main-blue), 0.5);
+}
+nav:hover {
+  box-shadow: 0 1rem 5rem rgba(var(--color-main-blue), 0.6);
 }
 .navbar {
   width: 800px;
@@ -21,9 +24,6 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-nav:hover {
-  box-shadow: 0 0 2rem rgba(var(--color-main-blue), 0.5);
 }
 nav a {
   flex-grow: 1;
