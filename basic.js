@@ -2,7 +2,10 @@ var head = document.getElementsByTagName("head")[0];
 var link = document.createElement("link");
 link.rel = "stylesheet";
 link.type = "text/css";
-link.href = "/basic.css";
+link.href =
+  window.location.hostname === "yishai-gr.github.io"
+    ? "/reforma/basic.css"
+    : "/basic.css";
 head.appendChild(link);
 async function load_nav_and_footer() {
   const nav = document.createElement("div");
