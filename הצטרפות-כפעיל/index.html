@@ -7,22 +7,26 @@
     <title>Document</title>
   </head>
   <body>
-    <form id="join" method="post" action="">
-      <label for="name">שם:</label>
-      <input type="text" name="name" id="name" />
-      <br />
-      <label for="email">אימייל:</label>
-      <input type="email" name="email" id="email" />
-      <br />
-      <label for="phone">פלאפון</label>
-      <input type="tel" name="phone" id="phone" />
-      <br />
-      <label for="loc">איפה אתה גר?</label>
-      <input type="text" name="loc" id="loc" />
-      <br />
+    <form
+      id="join-form"
+      method="post"
+      action="https://script.google.com/macros/s/AKfycbzptnlvCqFpUFOn2zcXpYqqeOK5zyd90HGN3PMVRNOb5lUu2kIH5eW0hv8BgF_MEhhtAQ/exec"
+    >
+      <label for="name">שם: <input type="text" name="name" id="name" /></label>
+      <label for="email"
+        >אימייל: <input type="email" name="email" id="email"
+      /></label>
+      <label for="phone"
+        >פלאפון <input type="tel" name="phone" id="phone"
+      /></label>
+      <label for="loc"
+        >איפה אתה גר? <input type="text" name="loc" id="loc"
+      /></label>
       <input type="reset" value="איפוס" />
-      <input type="submit" value="הצטרף אלינו!" />
+      <input id="submitBtn" type="submit" value="הצטרף אלינו!" />
     </form>
+    <a>hello</a>
     <script src="../basic.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>

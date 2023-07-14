@@ -17,3 +17,7 @@ form {
   background-color: green;
   max-width: 600px;
 }
+
+form label {
+  display: block;
+}
